@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FinalProjectGroup6</string>
+    <string name="login">Login</string>
+    <string name="enter_username">  Enter Username</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="loginbtn">Login</string>
+    <string name="register">Register ></string>
+    <string name="new_user_please_signup">New User? Please, signup</string>
+    <string name="registertitle">Register</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="create_password">Create Password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="registerbtn">Register</string>
+    <string name="name">Name</string>
+    <string name="already_registered_login_here">Already registered? Login here,</string>
+</resources>

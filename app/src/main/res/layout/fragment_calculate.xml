@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/color.secondary"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/calculateTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="6dp"
+        android:fontFamily="serif"
+        android:gravity="center_horizontal"
+        android:text="Calculate Crypto"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#0D47A1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="250dp">
+
+    <LinearLayout
+            android:layout_marginLeft="70dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/border"
+            android:ems="10"
+
+            android:paddingLeft="50dp"
+            android:textColorHighlight="#0D47A1"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/currency1"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:textColorHint="@color/black"
+                android:hint="Enter how much"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="#000000"
+                android:textColorHighlight="#0D47A1"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                tools:ignore="TextFields" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:paddingLeft="50dp"
+                android:textColorHighlight="#0D47A1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/currency2"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:textColorHint="@color/black"
+                android:hint="Enter how much"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColor="#000000"
+                android:textColorHighlight="#0D47A1"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                tools:ignore="TextFields" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:text="Calculate" />
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
